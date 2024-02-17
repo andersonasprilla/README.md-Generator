@@ -1,18 +1,13 @@
-const fs = require('fs')
-const inquirer = require('inquirer')
+// TODO: Include packages needed for this application
 
-inquirer
-    .prompt([
-        {
-            type: 'input',
-            message: 'what is the file name?',
-            name: 'filename'
-        }
+// TODO: Create an array of questions for user input
+const questions = [];
 
-    ]).then(response => {
-        fs.writeFile(
-            response.filename + '.md',
-            JSON.stringify(response, null, '\t'),
-            err => err ? console.error(err) :
-                console.log('success'))
-    })
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {}
+
+// TODO: Create a function to initialize app
+function init() {}
+
+// Function call to initialize app
+init();
