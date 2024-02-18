@@ -13,6 +13,12 @@ const questions = [
         type: 'input',
         message: 'Description of the project?',
         name: 'description'
+     },
+     {
+        type: 'input',
+        message: 'Installation',
+        name: 'installation'
+        
      }
 
 ];
