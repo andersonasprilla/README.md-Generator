@@ -6,20 +6,46 @@ const markdown = require('./utils/generateMarkdown')
 const questions = [
      {
         type: 'input',
-        message: 'Propject title?',
+        message: 'Propject title ?',
         name: 'title'
      },
      {
         type: 'input',
-        message: 'Description of the project?',
+        message: 'Description of the project ?',
         name: 'description'
      },
      {
         type: 'input',
-        message: 'Installation',
-        name: 'installation'
-        
-     }
+        message: 'Installation ?',
+        name: 'installation' 
+     },
+     {
+        type: 'input',
+        message: 'Usage ?',
+        name: 'usage'
+     },
+     {
+        type: 'list',
+        message: 'License ?',
+        name: 'license',
+        choices: ['MIT', 'GNU', 'APACHE']
+     },
+     {
+        type: 'input',
+        message: 'Contribution ?',
+        name: 'contribution'
+     },
+     {
+        type: 'input',
+        message: 'Test ?',
+        name: 'test'
+     },
+     {
+        type: 'input',
+        message: 'Questions ?',
+        name: 'questions'
+     },
+
 
 ];
 
