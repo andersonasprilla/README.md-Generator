@@ -1,8 +1,8 @@
-# undefined
+# Readme
 
   ## Description
   
-  undefined
+  generate a readme automatically
   
   - What was your motivation?
   - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
