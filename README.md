@@ -1,6 +1,9 @@
 # README.md-Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Walkthrough video [Link](https://app.screencastify.com/v3/watch/k34yyk3jeuCdmHeGmMN8)
+
 ## Description
 
 This Node.js application simplifies the process of creating a README file for your GitHub projects. By answering a few prompts, users can generate a professional README.md file that includes essential sections like the title, description, installation instructions, usage, license, contribution, tests, and contact information.
@@ -58,4 +61,4 @@ npm test
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at jhondoe@email.com. You can find more of my work at [GitHub](https://github.com/andersonasprilla).
+If you have any questions about the repo, open an issue or contact me directly at johndoe@email.com. You can find more of my work at [GitHub](https://github.com/andersonasprilla).

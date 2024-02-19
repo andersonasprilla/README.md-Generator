@@ -49,6 +49,9 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
 ${renderLicenseBadge(data.license)}
+
+Walkthrough video [Link](https://app.screencastify.com/v3/watch/k34yyk3jeuCdmHeGmMN8)
+
 ## Description
 
 ${data.description}
