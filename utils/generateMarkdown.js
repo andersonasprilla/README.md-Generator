@@ -67,12 +67,14 @@ ${data.license ? '- [License](#license)' : ''}
 Clone the repository to your local machine:
 
 \`\`\`sh
-${data.installation} https://github.com/${data.username}/${data.title}.git
+${data.installation} https://github.com/${data.github}/${data.title}.git
 \`\`\`
 
 ## Usage
 
-${data.usage}
+To start the application, run:
+${data.usage}\n
+Follow the prompts to enter your project details. A README.md file will be generated in your current directory.
 
 ${renderLicenseSection(data.license)}
 
@@ -82,7 +84,6 @@ ${data.contribution}
 
 ## Tests
 
-To run tests, run the following command:
 
 \`\`\`sh
 ${data.test}
@@ -90,7 +91,7 @@ ${data.test}
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [my GitHub](https://github.com/${data.username}).
+If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [my GitHub](https://github.com/${data.github}).
 `;
 }
 
