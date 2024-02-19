@@ -58,4 +58,4 @@ npm test
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at jhon.doe@email.com. You can find more of my work at [GitHub](https://github.com/README.md-Generator).
+If you have any questions about the repo, open an issue or contact me directly at jhondoe@email.com. You can find more of my work at [GitHub](https://github.com/andersonasprilla).
