@@ -1,9 +1,9 @@
-# sdfsd
+# README.md-Generator
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ## Description
 
-fsdfsd
+Generate a readme file dinamically based on user input
 
 ## Table of Contents
 
@@ -16,33 +16,33 @@ fsdfsd
 
 ## Installation
 
-To install the necessary dependencies, run the following command:
+Clone the repository to your local machine:
 
 ```sh
-dfsdf
+git clone https://github.com/andersonasprilla/README.md-Generator.git
 ```
 
 ## Usage
 
-sdfds
+follow step by step
 
 ## License
-This project is licensed under the MIT License. For more information, please visit [here](https://opensource.org/licenses/MIT).
+This project is licensed under the GNU License. For more information, please visit [here](https://www.gnu.org/licenses/gpl-3.0).
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Contribution
 
-sdfdsf
+Feel free Contribution to the repo are ancouraged. If you encounter any issues or have suggestions for improvements, please open an issue or 
 
 ## Tests
 
 To run tests, run the following command:
 
 ```sh
-sdfds
+node index.js
 ```
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at sdfs. You can find more of my work at [my GitHub](https://github.com/undefined).
+If you have any questions about the repo, open an issue or contact me directly at anderson.asprilla@gmail.com. You can find more of my work at [my GitHub](https://github.com/andersonasprilla).

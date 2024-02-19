@@ -16,7 +16,7 @@ const questions = [
      },
      {
         type: 'input',
-        message: 'Installation ?',
+        message: 'What is the coomand to install the repo in your machine? ?',
         name: 'installation' 
      },
      {
@@ -28,7 +28,7 @@ const questions = [
         type: 'list',
         message: 'License ?',
         name: 'license',
-        choices: ['Apache', 'MIT', 'Mozilla', 'GNU']
+        choices: ['Apache', 'MIT', 'Mozilla', 'GNU', 'N/A']
      },
      {
         type: 'input',
@@ -42,9 +42,14 @@ const questions = [
      },
      {
         type: 'input',
-        message: 'Questions ?',
-        name: 'questions'
+        message: 'GitHub username ?',
+        name: 'username'
      },
+     {
+      type: 'input',
+      message: 'email ?',
+      name: 'email'
+   },
 
 
 ];

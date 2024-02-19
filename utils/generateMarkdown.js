@@ -35,7 +35,7 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (!license || license === 'None') return '';
+  if (!license || license === 'N/A') return '';
   
   const link = renderLicenseLink(license);
   const badge = renderLicenseBadge(license);
@@ -63,10 +63,10 @@ ${data.license ? '- [License](#license)' : ''}
 
 ## Installation
 
-To install the necessary dependencies, run the following command:
+Clone the repository to your local machine:
 
 \`\`\`sh
-${data.installation}
+${data.installation} https://github.com/${data.username}/${data.title}.git
 \`\`\`
 
 ## Usage
@@ -89,7 +89,7 @@ ${data.test}
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at ${data.questions}. You can find more of my work at [my GitHub](https://github.com/${data.github}).
+If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [my GitHub](https://github.com/${data.username}).
 `;
 }
 
