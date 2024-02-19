@@ -48,4 +48,4 @@ npm test
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at anderson.asprilla@gmail.com. You can find more of my work at [my GitHub](https://github.com/undefined).
+If you have any questions about the repo, open an issue or contact me directly at anderson.asprilla@gmail.com. You can find more of my work at [my GitHub](https://github.com/andersonasprilla).

@@ -73,7 +73,9 @@ ${data.installation} https://github.com/${data.github}/${data.title}.git
 ## Usage
 
 To start the application, run:
+\`\`\`sh
 ${data.usage}\n
+\`\`\`sh
 Follow the prompts to enter your project details. A README.md file will be generated in your current directory.
 
 ${renderLicenseSection(data.license)}
@@ -91,7 +93,7 @@ ${data.test}
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [my GitHub](https://github.com/${data.github}).
+If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [my GitHub](https://github.com/${data.title}).
 `;
 }
 
