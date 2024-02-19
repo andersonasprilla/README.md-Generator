@@ -67,15 +67,23 @@ ${data.license ? '- [License](#license)' : ''}
 Clone the repository to your local machine:
 
 \`\`\`sh
-${data.installation} https://github.com/${data.github}/${data.title}.git
+git clone https://github.com/${data.github}/${data.title}.git
 \`\`\`
 
 ## Usage
 
+This command adds ${data.dependencies} as a dependency in your project's package.json file.
+
+\`\`\`sh
+npm install ${data.dependencies}
+\`\`\`
+
 To start the application, run:
+
 \`\`\`sh
-${data.usage}\n
-\`\`\`sh
+${data.usage}
+\`\`\`
+
 Follow the prompts to enter your project details. A README.md file will be generated in your current directory.
 
 ${renderLicenseSection(data.license)}
@@ -86,6 +94,7 @@ ${data.contribution}
 
 ## Tests
 
+To run tests, execute the following command:
 
 \`\`\`sh
 ${data.test}
@@ -93,8 +102,9 @@ ${data.test}
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [my GitHub](https://github.com/${data.title}).
+If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [GitHub](https://github.com/${data.title}).
 `;
 }
+
 
 module.exports = generateMarkdown;

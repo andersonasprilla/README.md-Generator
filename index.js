@@ -7,7 +7,7 @@ const markdown = require('./utils/generateMarkdown')
 const questions = [
    {
       type: 'input',
-      message: 'Propject title ?',
+      message: 'What is the Project title ?',
       name: 'title'
    },
    {
@@ -17,12 +17,17 @@ const questions = [
    },
    {
       type: 'input',
-      message: 'What is the coomand to install the repo in your machine? ?',
+      message: 'What is the command to install the repo in your machine? ?',
       name: 'installation'
    },
    {
       type: 'input',
-      message: 'Usage ?',
+      message: 'What are the necessary dependencies to properly run the application ?',
+      name: 'dependencies'
+   },
+   {
+      type: 'input',
+      message: 'What is the command to run the application ?',
       name: 'usage'
    },
    {
@@ -38,7 +43,7 @@ const questions = [
    },
    {
       type: 'input',
-      message: 'What command should the user run to execute the file (example: node index.js)?',
+      message: 'What command should the user input to test the application ?',
       name: 'test'
    },
    {
