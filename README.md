@@ -1,4 +1,4 @@
-# Readme.md-Generator
+# README.md-Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
@@ -20,7 +20,7 @@ This Node.js application simplifies the process of creating a README file for yo
 Clone the repository to your local machine:
 
 ```sh
-git clone https://github.com/andersonasprilla/Readme.md-Generator.git
+git clone https://github.com/andersonasprilla/README.md-Generator.git
 ```
 
 ## Usage
@@ -58,4 +58,4 @@ npm test
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at anderson.asprilla@gmail.com. You can find more of my work at [GitHub](https://github.com/Readme.md-Generator).
+If you have any questions about the repo, open an issue or contact me directly at jhon.doe@email.com. You can find more of my work at [GitHub](https://github.com/README.md-Generator).
